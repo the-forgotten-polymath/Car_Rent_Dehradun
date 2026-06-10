@@ -53,6 +53,7 @@ export const metadata = {
 
 import Footer from "@/components/Footer";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
+import Navbar from "@/components/Navbar";
 
 export default function RootLayout({ children }) {
   return (
@@ -60,7 +61,8 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${outfit.variable} ${plusJakartaSans.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-full flex flex-col" suppressHydrationWarning>
+        <Navbar />
         {children}
         <Footer />
         <FloatingWhatsApp />

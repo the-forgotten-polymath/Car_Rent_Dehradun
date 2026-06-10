@@ -1,6 +1,6 @@
 export default function BestDeals() {
   return (
-    <section className="bg-white py-24 px-6 w-full">
+    <section className="bg-white py-16 md:py-24 px-6 w-full">
       <div className="max-w-[1280px] mx-auto">
         <div className="text-center mb-16">
           <p className="text-[#CC1B1B] font-bold text-sm tracking-wider uppercase mb-3">Best Deals</p>
@@ -18,7 +18,7 @@ export default function BestDeals() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Card 1 */}
           <div className="bg-[#FAF8F5] rounded-[32px] overflow-hidden border border-gray-100 shadow-sm hover:shadow-md transition-all group">
-            <div className="w-full h-[280px] overflow-hidden">
+            <div className="w-full h-[220px] md:h-[280px] overflow-hidden">
               <img src="/media/white_sedan_scenic.png" alt="Weekly Specials" className="w-full h-full object-cover object-bottom group-hover:scale-105 transition-transform duration-700" />
             </div>
             <div className="p-8 md:p-10">
@@ -39,7 +39,7 @@ export default function BestDeals() {
 
           {/* Card 2 */}
           <div className="bg-[#FAF8F5] rounded-[32px] overflow-hidden border border-gray-100 shadow-sm hover:shadow-md transition-all group">
-            <div className="w-full h-[280px] overflow-hidden">
+            <div className="w-full h-[220px] md:h-[280px] overflow-hidden">
               <img src="/media/red_suv_scenic.png" alt="Weekend Discounts" className="w-full h-full object-cover object-bottom group-hover:scale-105 transition-transform duration-700" />
             </div>
             <div className="p-8 md:p-10">

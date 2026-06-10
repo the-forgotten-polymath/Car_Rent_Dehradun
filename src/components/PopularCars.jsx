@@ -28,7 +28,7 @@ export default function PopularCars() {
   };
 
   return (
-    <section className="bg-white py-24 w-full relative">
+    <section className="bg-white py-16 md:py-24 w-full relative">
       <div className="max-w-[1280px] mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between mb-12 gap-6">
           <div className="text-center md:text-left">

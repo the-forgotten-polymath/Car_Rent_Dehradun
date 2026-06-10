@@ -1,6 +1,6 @@
 export default function Features() {
   return (
-    <section className="bg-white py-24 pt-32 px-6 w-full">
+    <section className="bg-white py-16 md:py-24 pt-20 md:pt-32 px-6 w-full">
       <div className="max-w-[1280px] mx-auto">
         {/* Header */}
         <div className="flex flex-col md:flex-row items-center justify-center gap-4 mb-16">

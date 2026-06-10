@@ -39,7 +39,7 @@ export default function WhyChooseUs() {
   ];
 
   return (
-    <section className="bg-[#FAF8F5] py-24 px-6 w-full">
+    <section className="bg-[#FAF8F5] py-16 md:py-24 px-6 w-full">
       <div className="max-w-[1280px] mx-auto">
         <div className="text-center mb-16">
           <p className="text-[#CC1B1B] font-bold text-sm tracking-wider uppercase mb-3">Our Benefits</p>

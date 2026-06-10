@@ -29,7 +29,7 @@ export default function Testimonials() {
   if (columns.first.length === 0) return null;
 
   return (
-    <section className="bg-background my-24 relative overflow-hidden">
+    <section className="bg-background my-16 md:my-24 relative overflow-hidden">
       <div className="container z-10 mx-auto px-6 max-w-[1280px]">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
