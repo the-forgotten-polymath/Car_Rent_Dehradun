@@ -1,0 +1,58 @@
+{
+  "contactInfo": {
+    "phones": [
+      "08439777772",
+      "0959867867"
+    ],
+    "emails": []
+  },
+  "fleet": [
+    {
+      "name": "Vitara Breeza",
+      "imageUrl": "https://carrentdehradun.com/img/home-slider/budget-slider-1.jpg",
+      "localImage": "carrentdehradun_media/budget-slider-1.jpg"
+    },
+    {
+      "name": "Innova Crysta",
+      "imageUrl": "https://carrentdehradun.com/img/home-slider/budget-slider-3.jpg",
+      "localImage": "carrentdehradun_media/budget-slider-3.jpg"
+    },
+    {
+      "name": "Experience 5+",
+      "imageUrl": "https://carrentdehradun.com/img/ab1.png",
+      "localImage": "carrentdehradun_media/ab1.png"
+    },
+    {
+      "name": "Pikup & Drop Service",
+      "imageUrl": "https://carrentdehradun.com/img/icon/flag-2.png",
+      "localImage": "carrentdehradun_media/flag-2.png"
+    },
+    {
+      "name": "Swift Dzire",
+      "imageUrl": "https://carrentdehradun.com/img/product/car-collection/car-3.jpg",
+      "localImage": "carrentdehradun_media/car-3.jpg"
+    }
+  ],
+  "tariffs": [
+    {
+      "service": "24 Hours Car Rent",
+      "price": "Rs. 2000",
+      "securityDeposit": "Rs. 5000 Security Deposit"
+    },
+    {
+      "service": "Local City Tour",
+      "price": "Rs. 600",
+      "securityDeposit": "Rs. 5000 Security Deposit"
+    },
+    {
+      "service": "Airport Pickup Drop",
+      "price": "Rs. 1000",
+      "securityDeposit": "Rs. 5000 Security Deposit"
+    },
+    {
+      "service": "Outdoor Tour",
+      "price": "Depend Distance",
+      "securityDeposit": "Rs. 5000 Security Deposit"
+    }
+  ]
+}

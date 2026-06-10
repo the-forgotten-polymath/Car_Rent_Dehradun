@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #C9540A;
+  --color-primary-dark: #A8420A;
+  --color-text-dark: #0F172A;
+  --color-text-gray: #334155;
+  --color-bg-light: #FAF8F5;
+  --color-bg-card: #F4F1ED;
+  --color-border: #E8E4DF;
+
+  --font-heading: var(--font-outfit), sans-serif;
+  --font-body: var(--font-plus-jakarta-sans), sans-serif;
+  --font-sans: var(--font-plus-jakarta-sans), sans-serif;
+
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 40px;
+  --spacing-2xl: 64px;
+  --spacing-3xl: 96px;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 999px;
+
+  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.08);
+  --shadow-hover: 0 12px 40px rgba(0, 0, 0, 0.14);
+}
+
+body {
+  background-color: var(--color-bg-light);
+  color: var(--color-text-dark);
+  font-family: var(--font-body);
+}
+
+@layer utilities {
+  .text-brand-italic {
+    @apply text-primary italic;
+  }
+}
